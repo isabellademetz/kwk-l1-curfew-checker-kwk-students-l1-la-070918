@@ -3,7 +3,7 @@
 if time > 11
   puts "You're in trouble! Better get home quick!"
 else
-  puts ""
+  puts ""You're in trouble! Better get home quick!"
 end
  
  
