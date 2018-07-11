@@ -1,4 +1,4 @@
-
+def curfew_checker
  time = 9
  curfew = 11
 if time > 11
@@ -6,9 +6,9 @@ if time > 11
 else
   puts "Remember you're still under curfew!"
 end
+curfew_checker
 
-
-
+def complex_curfew_checker
   time = 9
  curfew = 11
 if time > 11
@@ -18,9 +18,9 @@ elsif time == 11
 else
   puts "Keep having fun!"
 end
+complex_curfew_checker
 
-
-
+deluxe_curfew_checker
  time = 9
  curfew = 11
 if time > 11
