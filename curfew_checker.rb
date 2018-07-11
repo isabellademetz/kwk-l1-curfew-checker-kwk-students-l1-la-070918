@@ -1,5 +1,5 @@
 
- time = 10
+ time = 9
  curfew = 11
 if time > 11
   puts "You're in trouble! Better get home quick!"
@@ -9,7 +9,7 @@ end
 
 
 
-  time = 10
+  time = 9
  curfew = 11
 if time > 11
   puts "You're in trouble! Better get home quick!"
@@ -21,7 +21,7 @@ end
 
 
 
- time = 10
+ time = 9
  curfew = 11
 if time > 11
   puts "You're in trouble! Better get home quick!"
@@ -33,7 +33,7 @@ end
 
  
 
- time = 10
+ time = 9
  curfew = #{curfew}
  curfew = 11
 if time > 11
