@@ -37,7 +37,7 @@ deluxe_curfew_checker
  curfew = #{curfew}
  curfew = 11
 if time > 11
-  puts "You're in trouble! Better get home quick!"
+  puts "You're in trouble! Better get back to Hogwarts quick!"
 elsif time == 11
   puts "Time to apparate"
 else
