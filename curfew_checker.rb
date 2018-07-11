@@ -2,7 +2,7 @@
 if time > 11
   puts "You're in trouble! Better get home quick!"
 elsif time = 11
-  puts "you're in trouble if it's 11"
+  puts ""You're in trouble! Better get home quick!""
 else
-  
+  puts "
 end
