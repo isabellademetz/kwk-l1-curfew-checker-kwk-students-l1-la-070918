@@ -6,6 +6,7 @@ if time > 11
 else
   puts "Remember you're still under curfew!"
 end
+end
 curfew_checker
 
 def complex_curfew_checker
@@ -17,6 +18,7 @@ elsif time == 11
   puts "Time to apparate"
 else
   puts "Keep having fun!"
+end
 end
 complex_curfew_checker
 
@@ -30,6 +32,7 @@ elsif time == 11
 else
   puts "Keep having fun if curfew is 11 and time is #{time}. There is #{curfew - time} hour(s) left."
 end
+end
 deluxe_curfew_checker
  
 def platinum_curfew_checker(time, curfew)
@@ -42,5 +45,6 @@ elsif time == 11
   puts "Time to apparate"
 else
   puts "Keep having fun if curfew is #{curfew} and time is #{time}. There is #{curfew - time} hour(s) left."
+end
 end
 deluxe_curfew_checker(9, 11)
