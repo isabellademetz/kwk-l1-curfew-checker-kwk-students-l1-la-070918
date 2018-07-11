@@ -6,5 +6,5 @@ if time > 11
 elsif time == 11
   puts "Time to apparate"
 else
-  puts "Keep having fun. Curfew is #{your curfew}. There is #{curfew - time} hour(s) left."
+  puts "Keep having fun. Curfew is #{curfew}. There is #{curfew - time} hour(s) left."
 end
