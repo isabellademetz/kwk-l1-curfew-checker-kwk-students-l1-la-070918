@@ -33,7 +33,9 @@ end
 deluxe_curfew_checker
  
 def platinum_curfew_checker(time, curfew)
+ time = 9
  curfew = #{curfew}
+ curfew = 11
 if time > 11
   puts "You're in trouble! Better get back to Hogwarts quick!"
 elsif time == 11
