@@ -43,4 +43,3 @@ elsif time == 11
 else
   puts "Keep having fun if curfew is #{curfew} and time is #{time}. There is #{curfew - time} hour(s) left."
 end
-platinum_curfew_checker
