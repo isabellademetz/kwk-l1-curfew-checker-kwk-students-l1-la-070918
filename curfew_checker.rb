@@ -22,7 +22,7 @@ end
 end
 complex_curfew_checker
 
-def deluxe_curfew_checker
+def deluxe_curfew_checker(time, curfew)
  time = 9
  curfew = 11
 if time > 11
@@ -33,7 +33,7 @@ else
   puts "Keep having fun if curfew is 11 and time is #{time}. There is #{curfew - time} hour(s) left."
 end
 end
-deluxe_curfew_checker
+deluxe_curfew_checker(9, 11)
  
 def platinum_curfew_checker(time, curfew)
  time = 9
