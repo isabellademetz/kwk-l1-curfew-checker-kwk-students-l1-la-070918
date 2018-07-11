@@ -6,5 +6,5 @@ if time > 11
 elsif time == 11
   puts "Time to apparate"
 else
-  puts "You have #{curfew}-#{time} hours left"
+  puts "You have #{curfew - time} hours left"
 end
